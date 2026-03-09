@@ -1,4 +1,5 @@
 **CSS animation**
+https://simmanomar.github.io/css-animation/ 
 
 For this project I used CSS @keyframes to create an animation sequence. 
 I created a logo with my name and experimented with different colors for each stage of the animation sequence. 
