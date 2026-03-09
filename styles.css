@@ -9,15 +9,15 @@ body {
 }
 
 @font-face {
-    font-family: myFont;
-    src: url('./Maragsa-Display.woff') format('woff2');
-    src: url('./Maragsa-Display.woff') format('woff');
+    font-family: "myFont";
+    src: url("./Maragsa-Display.woff") format('woff');
 }
 
 h1 {
-    font-family: myFont;
+    font-family: "myFont";
     color: #fff;
     margin: 0;
+    white-space: nowrap;
 }
 
 .logo {
@@ -81,3 +81,4 @@ div {
         background-color: #e01220;
     }
 }
+
