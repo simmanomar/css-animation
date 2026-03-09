@@ -1,0 +1,90 @@
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(maragsa-display.woff);
+}
+
+h1 {
+    font-family: myFont;
+    color: #fff;
+    margin: 0;
+}
+
+.logo {
+    font-size: 60px;
+    animation: logoGlow 5s infinite alternate;
+}
+
+@keyframes logoGlow {
+    from {
+        color: #f540a3;;
+    }
+    to {
+        color: cyan;
+    }
+
+    to {
+        color: #1029e6;
+    }
+}
+
+.logo-container {
+    display: flex;
+    height: 10rem;
+    width: 25rem;
+
+    align-items: center;
+    justify-content: center;
+    animation: coolAnimation 4s infinite;
+}
+
+
+div {
+  border-radius: 15px 50px 15px;
+  height: auto;
+  background-color: red;
+  animation: coolAnimation 4s infinite;
+}
+
+
+  @keyframes logo {
+  0%   {background-color: #1029e6;}
+  25%  {background-color: #ed4c07;}
+  50%  {background-color: #f540a3;}
+  100% {background-color: #e01220;}
+
+}
+
+@keyframes moveBox {
+    0% {left: 0px;}
+    50% {left: 300px;}
+    100% {left: 0px;}
+}
+
+@keyframes coolAnimation {
+    0% {
+        background-color: #1029e6;
+    }
+
+    25% {
+        background-color: #ed4c07;
+    }
+
+    75% {
+        background-color: #f540a3;
+    }
+
+    100% {
+        background-color: #e01220;
+    }
+}
