@@ -5,13 +5,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     height: 100vh;
 }
 
 @font-face {
     font-family: myFont;
-    src: url(maragsa-display.woff);
+    src: url('./Maragsa-Display.woff') format('woff2');
+    src: url('./Maragsa-Display.woff') format('woff');
 }
 
 h1 {
@@ -26,16 +26,9 @@ h1 {
 }
 
 @keyframes logoGlow {
-    from {
-        color: #f540a3;;
-    }
-    to {
-        color: cyan;
-    }
-
-    to {
-        color: #1029e6;
-    }
+    0% {color: #f540a3;;}
+    50% {color: cyan;}
+    100% {color: #1029e6;}
 }
 
 .logo-container {
